@@ -30,7 +30,7 @@
     "build-db-client": "prisma generate",
     "update-tracker": "node scripts/update-tracker.js",
     "update-db": "prisma migrate deploy",
-    "check-db": "node scripts/check-db.js",
+    "check-db": "tsx scripts/check-db.js",
     "check-env": "node scripts/check-env.js",
     "copy-db-files": "node scripts/copy-db-files.js",
     "extract-messages": "formatjs extract \"src/components/messages.ts\" --out-file build/extracted-messages.json",

@@ -43,3 +43,7 @@ yarn-error.log*
 
 *.dev.yml
 
+.vercel
+
+# Local export of non-HammerAI analytics taken before deletion
+/export-other-projects
